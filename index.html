@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Entrega 4 - Cards | Contact | Footer</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header>
+      <img class="logo" src="img/wwf.png" alt="Logo de la marca" />
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#">Donaciones</a></li>
+          <li><a href="#">Apóyanos</a></li>
+          <li><a href="#">Adopta</a></li>
+          <li><a href="#">Acerca de nosotros</a></li>
+        </ul>
+      </nav>
+      <a class="btn contact" href="#"><button>Contáctanos</button></a>
+    </header>
+
+    <!-- Hero -->
+    <main id="hero">
+      <section id="hero-section">
+        <h1>Cada acción cuenta, toda vida <span>importa</span></h1>
+        <p>
+          Tú puedes marcar la diferencia. Ayuda a preservar la vida animal y
+          proteje a las especies en peligro de extinción. ¡El momento de actuar
+          es ahora!
+        </p>
+        <a href="#">Conoce más</a>
+      </section>
+      <section>
+        <img
+          id="image-hero"
+          src="img/Especies en peligro de extinción en Colombia.jpg"
+          alt="Especies en peligro de extención en Colombia"
+        />
+      </section>
+    </main>
+
+    <!-- Info -->
+    <section id="info">
+      <p>
+        Colombia es uno de los países más diversos del mundo, pero muchas
+        actividades del hombre han provocado que ciertas especies estén en
+        peligro de extinción, pero, con tú ayuda y pequeñas acciones puedes
+        generar un gran impacto. Reforestar bosques, evitar la contaminación,
+        respetar las áres protegidas, luchar contra el tráfico de animales
+        exóticos y la caza ilegal son algunas formas para contribuir a la
+        preservación de nuestra riqueza natural.
+      </p>
+    </section>
+
+    <!-- Cards -->
+    <section id="container">
+      <header>
+        <h2>Especies en peligro de extinción</h2>
+      </header>
+      <ul>
+        <li class="card">
+          <picture>
+            <img src="img/Tití Cabeciblanco.jpeg" alt="Tití Cabeciblanco" />
+          </picture>
+          <h3>Tití Cabeciblanco</h3>
+          <p>
+            El mono Tití Cabeciblanco, cuyo nombre científico es Saguinus
+            oedipus, está en peligro crítico de extinción debido a la
+            deforestación, la caza furtiva y la venta ilegal.
+          </p>
+          <a href="#">Leer más</a>
+        </li>
+        <li class="card">
+          <picture>
+            <img src="img/Manatí del Caribe.jpg" alt="Manatí del Caribe" />
+          </picture>
+          <h3>Manatí Amazónico</h3>
+          <p>
+            El Manatí Amazónico, cuyo nombre científico es Trichechus manatus,
+            está en peligro de extinción debido a la pérdida de su hábitat, el
+            desarrollo comercial y residencial, uso de los recursos bilógicos,
+            contaminación del agua, entre otros.
+          </p>
+          <a href="#">Leer más</a>
+        </li>
+        <li class="card">
+          <picture>
+            <img src="img/Oso de Anteojos.jpg" alt="Oso de Anteojos" />
+          </picture>
+          <h3>Oso de Anteojos</h3>
+          <p>
+            El Oso de Anteojos, cuyo nombre científico es Tremarctos ornatus, es
+            catalogada como especie en estado vulnerable (Vu) de peligro de
+            extinción, por la pérdida de su hábitat natural, la destrucción de
+            los bosques tropicales y debido al cambio climático.
+          </p>
+          <a href="#">Leer más</a>
+        </li>
+      </ul>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+      <h2>Información de Contacto</h2>
+      <ul>
+        <li>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAACa0lEQVR4nO2ZO2sVQRSAJz5QMYpIJIqCIAqCgqlM/AF2ol3UylqwUsHCQiIh2EliYWJ+QQot7MRG8RVFtAloq4RgjIJilBtfnxzuEcI1LGfWM7N7xQ8Glt3lDB8zc3bOTgj/+RNgHXAcuAY8Ad4CX7XJ9WN9dkzeDXUD2AJcBT5jR94dB3bWQWAVcBGYpzwyWpckVqhIogu4ix8Pgc25JfYCr/HnlcTOJdGdSGKxTHdqidU6BVLzIOma0YWdi6GUKfZvslMsC8COFCLyncjNmLdEJ/CpApF56dtTRLYdMTSAYaAXWKtNrkf0WQz9niKyP7IyDewriNWj71gZ9RSRDaCFRpFEi4x1ZCY9ReaMnQ5HxLxijDnrKSKp0ML+iJh9xpgNTxHrNOiMzIQWvniKvEkgst4Yc8ZT5EWFU2vKU+SmsdORBIv9uqfIkLFTWUs9xvRrTSADniL92JkukinxQTzsKbIJ+BHR+YJOnT7NTtIO6D3rSAjfJCm4iajMc/Jzz1WigqLqN2dTiOwmLz+B7e4iKvMso8idJBIqcjKjyNGUIpJ9PmSQmAFWJhNRmcsZRM4nlVCRbSXK1Rg+AhuSi6jMaEKRwSwSKrI10T+u98DGbCIqM5BA5FRWCRVZ4/wz+2XyTFUgc8JR5FAlEiqyDHjqIHG7MomW+kKOz8oiZ4m7Qh3AXkEuxelQF2geik6VkJDj6uWhTtCsBr9HSMjuYE+oI8BghMiZUFeAFcB9g8QtyXihztDcVL4rkJiVY7zQDgBHtFRtRdbQwdBOABeWEDkX2g2gA5hYJHFD7oV2hGZpPAk8cj3UDP8wvwAJyd2FGPUONgAAAABJRU5ErkJggg=="
+            alt="marker"
+          />Carrera 10a #69a-44 Bogotá, Colombia
+        </li>
+        <li>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAB/0lEQVR4nO3YTYhNcRjH8b/3vCVvJUQUyWKKbKQkpWZFYWGBsrG1nOwsLGZriR2ZJDuUWEgpSlJS3sJGyEsh78N8dOq5dbpNY5q5Z+69/8637j2L8z/PyznneZ7f/6RUU1NTU9MOZEKSUSJ/ZJJILz7qXoZwvFEnK3BX9/EFuxtJbI7jLAzoHh5gTcS+sPgbRF+pix3Gb53NAGZHvBvwoty1zmBmnNyKtzqPwaabfgDfhmu/97AyFi3HHZ3DO2yP2GbgxP/myPumC05rP7ewNGJahtujHYjD1c0v7eEkppde+Tdjmeznim4WRrbgtYnjBw6F70k4MlITGo1EuY9VYXAxbqieZ+gJn3NwoVVa6wN2hOGp6FcdlzE/fK3Fw1aLxkKT9RWPOZzsx3etlRr9mBz2d+JTler3fNMwemn8FFqvN2xOwbFIrHIZ/wjrwvEiXDd2ihpcXbJ1baL3I5+xq3QXx1I3Z0tdceN4nm5q8Xu9D19Hcd3Pop2W5tTB8dZb0houYV4E1YPnI6x9VVLchXI41Wlb3SdYHwEuwNVh1tzEkiq0XFLRRiemcdGu/5akxrQ4t63V6jppPUPRPht1swd7S8kdreI7QVIdVxoTOpKYi4vd+jnoKTbF73GVjpJMSDIhyYQkE5JMSDIhyYQkE5JMSDIhyYRUU1NTU5PawD95ZgOCo89UiQAAAABJRU5ErkJggg=="
+            alt="new-post"
+          />
+          wwfcolombia@mail.com
+        </li>
+        <li>
+          <img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEMAAABDCAYAAADHyrhzAAAACXBIWXMAAAsTAAALEwEAmpwYAAACYUlEQVR4nO3bz4sXdRgH8EdR0dWDYMSCwoLCXhJMPAThwW5heFBEBcmgBClCCyxZwYNExwQPpocu4S8WlJW9+Q8U2SnwIqUHUYQuLZFEZr5k2O8ayLo7M+1g88y8YG7f05sZns/zeZ5vRK/X6/2PYAk2Yl10FTbjAn7zr0tYGl2Cw/jb7N6PrsBxc/shugB7ze8fDEdmWIsp5XwQmeEb5V2LrDCMRxXCeIihyAhjqnsnMsL3NcI4F9lgFR7XCOPnyAZvqOcJXolMsF99b0Ym+PQ/hPF2ZKJeJZn5TDZEJjhaM4yvIxscqRHET1ge2eDDGmG8FRlhZ9W3IrIyfaVXxVhkhRWDO4qytkZmuFshjLWRGSYqhLEyMlPtFLomOjAWKGs0MsPi5+Yjc9kV2eFKyTC+iOywp2QYNyI7DOGPkt1q7vJawHjJt+OTyE75PuUWFkUH1g/udfKWazY4UTKMH7vwdgzjr5KB7InscLlkGEWDtzoyw2sV2vrzkR2uKu9gZIbXBwesMorx5O7ITLV7jj+L6VxkhdEKlWXGmcy7G1+p7j6OYX1kgtX4VX3Fntjt556buIiRaBsc1Iw7rbtGxCJcbyiQiWgbjOD3hgI5EG2DjxoKY6p1i/qmP5fJhgKZjJZWl9sNBbIv2gZbBifOhfaglRM7vFuhd6ni82gjfNZAGMUBb1m0EU41EMiOaCPTFebLBQ5je7QZPq649PIiFyMDbBv0G3V9V2wSRbLF/FOD/6RUMd7KsloGXsVJ/DJPCMUB7r30M5gZ2IRDOI1vcXawpr212A159sNer9frxUvxFLVIJoU9sFG0AAAAAElFTkSuQmCC"
+            alt="external-Phone-game-play-others-inmotus-design"
+          />
+          01 8000 505050
+        </li>
+      </ul>
+      <span>
+        <a href="#"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64h98.2V334.2H109.4V256h52.8V222.3c0-87.1 39.4-127.5 125-127.5c16.2 0 44.2 3.2 55.7 6.4V172c-6-.6-16.5-1-29.6-1c-42 0-58.2 15.9-58.2 57.2V256h83.6l-14.4 78.2H255V480H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64z"
+            />
+          </svg>
+        </a>
+        <a href="#"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              d="M194.4 211.7a53.3 53.3 0 1 0 59.3 88.7 53.3 53.3 0 1 0 -59.3-88.7zm142.3-68.4c-5.2-5.2-11.5-9.3-18.4-12c-18.1-7.1-57.6-6.8-83.1-6.5c-4.1 0-7.9 .1-11.2 .1c-3.3 0-7.2 0-11.4-.1c-25.5-.3-64.8-.7-82.9 6.5c-6.9 2.7-13.1 6.8-18.4 12s-9.3 11.5-12 18.4c-7.1 18.1-6.7 57.7-6.5 83.2c0 4.1 .1 7.9 .1 11.1s0 7-.1 11.1c-.2 25.5-.6 65.1 6.5 83.2c2.7 6.9 6.8 13.1 12 18.4s11.5 9.3 18.4 12c18.1 7.1 57.6 6.8 83.1 6.5c4.1 0 7.9-.1 11.2-.1c3.3 0 7.2 0 11.4 .1c25.5 .3 64.8 .7 82.9-6.5c6.9-2.7 13.1-6.8 18.4-12s9.3-11.5 12-18.4c7.2-18 6.8-57.4 6.5-83c0-4.2-.1-8.1-.1-11.4s0-7.1 .1-11.4c.3-25.5 .7-64.9-6.5-83l0 0c-2.7-6.9-6.8-13.1-12-18.4zm-67.1 44.5A82 82 0 1 1 178.4 324.2a82 82 0 1 1 91.1-136.4zm29.2-1.3c-3.1-2.1-5.6-5.1-7.1-8.6s-1.8-7.3-1.1-11.1s2.6-7.1 5.2-9.8s6.1-4.5 9.8-5.2s7.6-.4 11.1 1.1s6.5 3.9 8.6 7s3.2 6.8 3.2 10.6c0 2.5-.5 5-1.4 7.3s-2.4 4.4-4.1 6.2s-3.9 3.2-6.2 4.2s-4.8 1.5-7.3 1.5l0 0c-3.8 0-7.5-1.1-10.6-3.2zM448 96c0-35.3-28.7-64-64-64H64C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96zM357 389c-18.7 18.7-41.4 24.6-67 25.9c-26.4 1.5-105.6 1.5-132 0c-25.6-1.3-48.3-7.2-67-25.9s-24.6-41.4-25.8-67c-1.5-26.4-1.5-105.6 0-132c1.3-25.6 7.1-48.3 25.8-67s41.5-24.6 67-25.8c26.4-1.5 105.6-1.5 132 0c25.6 1.3 48.3 7.1 67 25.8s24.6 41.4 25.8 67c1.5 26.3 1.5 105.4 0 131.9c-1.3 25.6-7.1 48.3-25.8 67z"
+            />
+          </svg>
+        </a>
+        <a href="#"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+            <path
+              d="M64 32C28.7 32 0 60.7 0 96V416c0 35.3 28.7 64 64 64H384c35.3 0 64-28.7 64-64V96c0-35.3-28.7-64-64-64H64zm297.1 84L257.3 234.6 379.4 396H283.8L209 298.1 123.3 396H75.8l111-126.9L69.7 116h98l67.7 89.5L313.6 116h47.5zM323.3 367.6L153.4 142.9H125.1L296.9 367.6h26.3z"
+            />
+          </svg>
+        </a>
+      </span>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.6614093193703!2d-74.06226522628025!3d4.654333042060398!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9b5018e7724d%3A0x5497372d97aec1a9!2sCra.%2010a%20%2369a-44%2C%20Bogot%C3%A1!5e0!3m2!1ses!2sco!4v1733951327670!5m2!1ses!2sco"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
+    </section>
+    <footer>
+      <img id="logo-footer" src="img/wwf.png" alt="Logo de la marca" />
+    </footer>
+  </body>
+</html>
